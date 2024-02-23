@@ -1,0 +1,51 @@
+table.dataTable td{padding:8px 8px}.fontawesome-icons .the-icon svg{font-size:24px}
+
+@media screen and (max-width: 767px) {
+    div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+        flex-wrap: wrap;
+    }
+    div.dataTables_wrapper div.dataTables_paginate ul.pagination .paginate_button {
+        margin-bottom: .4rem;
+    }
+}
+.button-holder {
+    white-space: nowrap;
+}
+table.dataTable.table-min-width th, table.dataTable.table-min-width td {
+    min-width: 110px;
+}
+table.dataTable.table-min-width-xl th, table.dataTable.table-min-width-xl td {
+    min-width: 110px;
+}
+.buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+.buttons .btn {
+    margin: 0px 10px 10px 0px !important;
+}
+@media screen and (max-width: 575px) {
+    .btn-light-secondary .d-none.d-sm-block, .btn-primary .d-none.d-sm-block {
+        display: block !important;
+    }
+    .btn-light-secondary .bx.bx-x.d-block.d-sm-none, .btn-primary .bx.d-sm-none {
+        display: none !important;
+    }
+}
+
+.custom-table, .custom-table-100 {
+    overflow-x: auto;
+}
+.custom-table-100 td {
+    min-width: 140px;
+}
+.custom-table td {
+    min-width: 140px;
+}
+table.dataTable.table-min-width th.table-min-width-small, table.dataTable.table-min-width td.table-min-width-small {
+	min-width: auto;
+}
+table.dataTable.table-min-width th.table-min-width-small.padding-small {
+	padding-right: 10px;
+}
